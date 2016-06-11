@@ -72,7 +72,7 @@
 	
 
     #include "math.h"
-    #include "application.h"
+    //#include "application.h"
     #ifdef PARTICLE_PHOTONELECTRON
         extern char* dtoa(double val, unsigned char prec, char *sout);
         // On spark photon, There is no itoa, so map to ltoa.
